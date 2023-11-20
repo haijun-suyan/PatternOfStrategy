@@ -13,10 +13,10 @@
 		76372DE91E55912F00A80177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76372DE71E55912F00A80177 /* Main.storyboard */; };
 		76372DEB1E55912F00A80177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76372DEA1E55912F00A80177 /* Assets.xcassets */; };
 		76372DEE1E55912F00A80177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76372DEC1E55912F00A80177 /* LaunchScreen.storyboard */; };
-		76372E2A1E5591C700A80177 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372E261E5591C700A80177 /* RegExCategories.m */; };
-		76372E311E55976100A80177 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372E301E55976100A80177 /* InputValidator.m */; };
-		76372E341E5597AE00A80177 /* EmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372E331E5597AE00A80177 /* EmailValidator.m */; };
-		76372E3A1E55986B00A80177 /* PhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372E391E55986B00A80177 /* PhoneNumberValidator.m */; };
+		F3DD13F62AFD2F13001F01D2 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD13EC2AFD2F13001F01D2 /* RegExCategories.m */; };
+		F3DD13F72AFD2F13001F01D2 /* PhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD13EF2AFD2F13001F01D2 /* PhoneNumberValidator.m */; };
+		F3DD13F82AFD2F13001F01D2 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD13F12AFD2F13001F01D2 /* InputValidator.m */; };
+		F3DD13F92AFD2F13001F01D2 /* EmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD13F32AFD2F13001F01D2 /* EmailValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,14 +49,14 @@
 		76372DEF1E55912F00A80177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76372DF41E55913000A80177 /* patternOfStrategyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patternOfStrategyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76372DFF1E55913000A80177 /* patternOfStrategyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patternOfStrategyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76372E251E5591C700A80177 /* RegExCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
-		76372E261E5591C700A80177 /* RegExCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
-		76372E2F1E55976100A80177 /* InputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
-		76372E301E55976100A80177 /* InputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
-		76372E321E5597AE00A80177 /* EmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailValidator.h; sourceTree = "<group>"; };
-		76372E331E5597AE00A80177 /* EmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailValidator.m; sourceTree = "<group>"; };
-		76372E381E55986B00A80177 /* PhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberValidator.h; sourceTree = "<group>"; };
-		76372E391E55986B00A80177 /* PhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidator.m; sourceTree = "<group>"; };
+		F3DD13EC2AFD2F13001F01D2 /* RegExCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
+		F3DD13ED2AFD2F13001F01D2 /* RegExCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
+		F3DD13EF2AFD2F13001F01D2 /* PhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidator.m; sourceTree = "<group>"; };
+		F3DD13F12AFD2F13001F01D2 /* InputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		F3DD13F22AFD2F13001F01D2 /* InputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
+		F3DD13F32AFD2F13001F01D2 /* EmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailValidator.m; sourceTree = "<group>"; };
+		F3DD13F42AFD2F13001F01D2 /* PhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberValidator.h; sourceTree = "<group>"; };
+		F3DD13F52AFD2F13001F01D2 /* EmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailValidator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				76372DE21E55912F00A80177 /* AppDelegate.m */,
 				76372DE41E55912F00A80177 /* ViewController.h */,
 				76372DE51E55912F00A80177 /* ViewController.m */,
-				76372E2E1E55972600A80177 /* InputValidator */,
+				F3DD13EA2AFD2F13001F01D2 /* strategy */,
 				76372DE71E55912F00A80177 /* Main.storyboard */,
 				76372DEA1E55912F00A80177 /* Assets.xcassets */,
 				76372DEC1E55912F00A80177 /* LaunchScreen.storyboard */,
@@ -127,19 +127,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76372E2E1E55972600A80177 /* InputValidator */ = {
+		F3DD13EA2AFD2F13001F01D2 /* strategy */ = {
 			isa = PBXGroup;
 			children = (
-				76372E251E5591C700A80177 /* RegExCategories.h */,
-				76372E261E5591C700A80177 /* RegExCategories.m */,
-				76372E2F1E55976100A80177 /* InputValidator.h */,
-				76372E301E55976100A80177 /* InputValidator.m */,
-				76372E321E5597AE00A80177 /* EmailValidator.h */,
-				76372E331E5597AE00A80177 /* EmailValidator.m */,
-				76372E381E55986B00A80177 /* PhoneNumberValidator.h */,
-				76372E391E55986B00A80177 /* PhoneNumberValidator.m */,
+				F3DD13EB2AFD2F13001F01D2 /* RegExCategories */,
+				F3DD13EE2AFD2F13001F01D2 /* InputValidator */,
+			);
+			path = strategy;
+			sourceTree = "<group>";
+		};
+		F3DD13EB2AFD2F13001F01D2 /* RegExCategories */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD13ED2AFD2F13001F01D2 /* RegExCategories.h */,
+				F3DD13EC2AFD2F13001F01D2 /* RegExCategories.m */,
+			);
+			path = RegExCategories;
+			sourceTree = "<group>";
+		};
+		F3DD13EE2AFD2F13001F01D2 /* InputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD13F02AFD2F13001F01D2 /* InputValidatorBase */,
+				F3DD13F42AFD2F13001F01D2 /* PhoneNumberValidator.h */,
+				F3DD13EF2AFD2F13001F01D2 /* PhoneNumberValidator.m */,
+				F3DD13F52AFD2F13001F01D2 /* EmailValidator.h */,
+				F3DD13F32AFD2F13001F01D2 /* EmailValidator.m */,
 			);
 			path = InputValidator;
+			sourceTree = "<group>";
+		};
+		F3DD13F02AFD2F13001F01D2 /* InputValidatorBase */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD13F22AFD2F13001F01D2 /* InputValidator.h */,
+				F3DD13F12AFD2F13001F01D2 /* InputValidator.m */,
+			);
+			path = InputValidatorBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,12 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				76372DE61E55912F00A80177 /* ViewController.m in Sources */,
-				76372E341E5597AE00A80177 /* EmailValidator.m in Sources */,
-				76372E311E55976100A80177 /* InputValidator.m in Sources */,
-				76372E2A1E5591C700A80177 /* RegExCategories.m in Sources */,
+				F3DD13F82AFD2F13001F01D2 /* InputValidator.m in Sources */,
+				F3DD13F72AFD2F13001F01D2 /* PhoneNumberValidator.m in Sources */,
+				F3DD13F62AFD2F13001F01D2 /* RegExCategories.m in Sources */,
+				F3DD13F92AFD2F13001F01D2 /* EmailValidator.m in Sources */,
 				76372DE31E55912F00A80177 /* AppDelegate.m in Sources */,
 				76372DE01E55912F00A80177 /* main.m in Sources */,
-				76372E3A1E55986B00A80177 /* PhoneNumberValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
